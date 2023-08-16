@@ -23,13 +23,18 @@ h3 {
     font-style: Daytona;
     color: #CC8B65;
 }
+h3 {
+	font-size: 13px;
+    font-style: Daytona;
+    color: #CC8B65;
+}
 p {
-    font-size: 14px;
+    font-size: 12px;
     font-style: Arial;
     color: #E3DCD2;
 }
 li {
-    font-size: 14px;
+    font-size: 12px;
     font-style: Arial;
     color: #E3DCD2;
 }
