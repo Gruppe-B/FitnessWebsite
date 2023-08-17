@@ -19,13 +19,13 @@ html{ /* Author Ilja Pidonenko */
 .welcome { /*This is the header of the website*/
     width: 100%;
     height: 100vh; 
-    background-image: url(./images/Background.png);
+    background-image: url(../images/Background.png);
     background-size: cover;
 }
 .transition {
     width: 100%;
     height: 30vh; 
-    background-image: url(./images/transition.png);
+    background-image: url(../images/transition.png);
     background-size: cover;
 }
 .shadow{ /*we make a shadow on the .welcome*/
