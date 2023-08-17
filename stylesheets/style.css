@@ -40,8 +40,11 @@ li {
 }
 /* Style the top navigation bar */
 .topnav {
+    position: fixed;
     overflow: hidden;
-    background-color: #100C0D
+    background-color: #100C0D;
+    width: 100%;
+    top: 0;
 }
   
   /* Style the topnav links */
@@ -53,6 +56,7 @@ li {
     text-align: center;
     padding: 21px 16px;
     text-decoration: none;
+    width: 14%;
 }
   
   /* Change color on hover */
