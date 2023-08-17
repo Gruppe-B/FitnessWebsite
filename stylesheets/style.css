@@ -45,6 +45,7 @@ li {
     background-color: #100C0D;
     width: 100%;
     top: 0;
+    z-index: 1;
 }
   
   /* Style the topnav links */
