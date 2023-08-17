@@ -12,3 +12,21 @@ img {
     width: 15%;
     height: 15%;
 }
+/* Style the footer*/
+footer {
+    text-align: center;
+    padding: 2%;
+    padding-left: 38%;
+    background-color: #100C0D;
+    color: white;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+    
+   
+    
+}
+footer a {
+    color: #CC8B65;
+}
