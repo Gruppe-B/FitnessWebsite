@@ -5,19 +5,6 @@
 	margin: 0;
 }
 
-.content-container {
-	text-align: center;
-	
-}
-
-.content {
-	text-align: left;
-	width: 60%;
-	max-width: 100%;
-	display: inline-block;
-	
-}
-
 h1 {
 	margin-top: 10%;
 }
