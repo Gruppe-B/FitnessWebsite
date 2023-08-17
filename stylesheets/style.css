@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+body {
+  font-family: Arial;
+  margin: 0;
+  min-height: 100vh;
+  position: relative;
+  background-color: #013328;
+} 
+h1 {
+	font-size: 24px;
+    font-style: Daytona;
+    color: #CC8B65
+}
+h2 {
+	font-size: 16px;
+    font-style: Daytona;
+    color: #CC8B65;
+}
+h3 {
+	font-size: 14px;
+    font-style: Daytona;
+    color: #CC8B65;
+}
+h4 {
+	font-size: 13px;
+    font-style: Daytona;
+    color: #CC8B65;
+}
+p {
+    font-size: 12px;
+    font-style: Arial;
+    color: #E3DCD2;
+}
+li {
+    font-size: 12px;
+    font-style: Arial;
+    color: #E3DCD2;
+}
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #100C0D
+}
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #E3DCD2;
+    font-style: Daytona;
+    text-align: center;
+    padding: 21px 16px;
+    text-decoration: none;
+}
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #3E3A45;
+    color: #E3DCD2;
+}
+  /* Change color on active Site */
+  .topnav a.active {
+    background-color: rgba(255,255,255,0.1);
+}
+/* Style the footer*/
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #100C0D;
+    color: white;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+footer a {
+    color: #CC8B65;
+}
