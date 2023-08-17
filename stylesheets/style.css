@@ -9,27 +9,27 @@ body {
   background-color: #013328;
 } 
 h1 {
-	font-size: 24px;
+	font-size: 28px;
     font-style: Daytona;
     color: #CC8B65
 }
 h2 {
-	font-size: 16px;
+	font-size: 25px;
     font-style: Daytona;
     color: #CC8B65;
 }
 h3 {
-	font-size: 14px;
+	font-size: 22px;
     font-style: Daytona;
     color: #CC8B65;
 }
 h4 {
-	font-size: 13px;
+	font-size: 20px;
     font-style: Daytona;
     color: #CC8B65;
 }
 p {
-    font-size: 12px;
+    font-size: 16px;
     font-style: Arial;
     color: #E3DCD2;
 }
