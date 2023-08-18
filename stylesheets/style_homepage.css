@@ -101,7 +101,15 @@ footer a {
     height: 100vh;
     width: 100%;
 }
-.workout, .workout-methods, .eats, .recreation, .equipment, .learning {
+.hoverPlate {
+    background:#181717;
+    transition: 1s;
+}
+.hoverPlate:hover {
+    background:#181717;
+    background:rgba(14, 13, 13, 0.5);
+}
+.workout, .workout-methods, .eats, .recreation, .equipment, .learning, .hoverPlate {
     position: absolute;
     width: 25%;
     height: 35%;
