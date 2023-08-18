@@ -100,13 +100,12 @@ footer a {
     position: relative;
     height: 100vh;
     width: 100%;
-    border: solid white 5px;
 }
 .workout, .workout-methods, .eats, .recreation, .equipment, .learning {
     position: absolute;
     width: 25%;
     height: 35%;
-    border: solid white 5px;
+    border: solid black 2px;
 }
 .workout {
     top: 5%;
@@ -121,14 +120,18 @@ footer a {
     left: 67%;
 }
 .recreation {
-    top: 45%;
+    top: 50%;
     left: 7%;
 }
 .equipment {
-    top: 45%;
+    top: 50%;
     left: 37%;
 }
 .learning {
-    top: 45%;
+    top: 50%;
     left: 67%;
+}
+.homepage-content img {
+width: 100%;
+height: 100%;
 }
