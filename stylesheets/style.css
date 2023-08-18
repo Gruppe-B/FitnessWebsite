@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+}
 body {
   font-family: Arial;
   margin: 0;
@@ -69,6 +72,33 @@ li {
   .topnav a.active {
     background-color: rgba(255,255,255,0.1);
 }
+.SideNav {
+    position: fixed;
+    right: 0;
+    top: 15%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    border: black solid 5px;
+  }
+  
+  .SideNavli a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+  .SideNavli a:hover {
+    background-color: #555;
+    color: white;
+  }
+  .scroll {
+    scroll-margin-top: 80px;
+  }
 /* Style the footer*/
 footer {
     text-align: center;
@@ -84,6 +114,7 @@ footer a {
 }
 .equipment div img {
 width: 300px;
+max-height: 380px;
 }
 
 .content-container {
