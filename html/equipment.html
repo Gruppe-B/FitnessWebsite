@@ -5,33 +5,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!-- linking the CSS-file -->
     <link rel="stylesheet" type="text/css" href="../stylesheets/style.css">
 </head>
 
 <body>
     <nav class="topnav">
-        <!-- Adding Navigation Links into the Navigation Bar-->
+
+        <!--Creating Links so that the sites are available in the navigation system-->
+
         <a href="../index.html">Startseite</a>
+
         <a href="shortworkouts.html">Trainingspläne</a>
+
         <a href="trainingsmethoden.html">Trainingsmethoden</a>
+
         <a href="ernaehrung.html">Ernährung</a>
+
         <a href="erholung.html">Erholung</a>
-        <!-- Creating an active class so it can be edited in the CSS-file -->
+
         <a class="active" href="equipment.html">Ausrüstung</a>
+
         <a href="">Lerne Mehr</a>
     </nav>
-
-    <!-- creating the Main Content Container -->
+    <ul class="SideNav">
+        <li class="SideNavli"><a href="#straps">Straps</a></li>
+        <li class="SideNavli"><a href="#liftStrap">Lifting Straps</a></li>
+        <li class="SideNavli"><a href="#belt">Gym Belt</a></li>
+      </ul>
     <div class="content-container">
         <div class="content equipment">
             <h1>Fitness Ausrüstung</h1>
             <div>
-                <h2>Straps</h2>
+                <h2 class="scroll" id="straps">Straps</h2>
                 <p>Die Straps sind so konzipiert, dass sie höchsten Komfort bieten. Unterstützung und
                     Stabilität beim schweren Heben, Krafttraining und Kraftsport. Sie maximieren jede Wiederholung und
                     verbessern die Hebeform.</p>
-                <!-- adding an image of Straps and creating an alt to fullfil the Accessibility for all users -->
                 <img src="../images/straps.webp" alt="Straps">
                 <h3>Eigenschaften</h3>
                 <p>
@@ -42,10 +50,7 @@
                     - Äußerst bequem.<br>
                     - Starker Klettverschluss.<br>
                 </p>
-                
-                <!-- Lifting Straps Section -->
-                <h2>Lifting Straps</h2>
-                <!-- adding an image of Lifting Straps and creating an alt to fullfil the Accessibility for all users -->
+                <h2 class="scroll" id="liftStrap">Lifting Straps</h2>
                 <img src="../images/figure-8-lifting-straps-black.jpg" alt="Lifting Straps">
                 <p>
                     Stehen in deinem Trainingsplan Deadlift oder schweres Rudern mit Kurz- und Langhanteln? Bei hohen
@@ -55,10 +60,7 @@
                     Gewicht
                     fest in der Hand zu halten, ohne dass das Gewicht auf Grund fehlender Griffkraft abrutscht.
                 </p>
-                
-                <!-- Gym Belt Section -->
-                <h2>Gym Belt</h2>
-                <!-- adding an image of a Gym Belt and creating an alt to fullfil the Accessibility for all users -->
+                <h2 class="scroll" id="belt">Gym Belt</h2>
                 <img src="../images/weightlifting-belt.jpg" alt="Gym Belt">
                 <p>
                     Der Gürtel sorgt für gerade Haltung und einen stabilen Rumpf, damit du buchstäblich mehr bewegst;
@@ -77,11 +79,8 @@
             </div>
         </div>
     </div>
-    
-    <!-- Footer Section -->
     <footer>
         <div>
-            <!-- Footer Information -->
             <p>Author: Fitness Gang
                 <a href="mailto:Fitnessgang@gmail.com">Fitnessgang@gmail.com</a>
                 <a href="impressum.html">Impressum</a>
