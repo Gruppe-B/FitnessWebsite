@@ -128,3 +128,8 @@ max-height: 380px;
 	display: inline-block;
 	
 }
+
+.title {
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
