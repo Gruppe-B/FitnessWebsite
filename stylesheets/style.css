@@ -1,132 +1,152 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
+
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
+
 body {
   font-family: Arial;
   margin: 0;
   min-height: 100vh;
   position: relative;
   background-color: #013328;
-} 
+}
+
 h1 {
-	font-size: 28px;
-    font-style: Daytona;
-    color: #CC8B65
+  font-size: 28px;
+  font-style: Daytona;
+  color: #CC8B65
 }
+
 h2 {
-	font-size: 25px;
-    font-style: Daytona;
-    color: #CC8B65;
+  font-size: 25px;
+  font-style: Daytona;
+  color: #CC8B65;
 }
+
 h3 {
-	font-size: 22px;
-    font-style: Daytona;
-    color: #CC8B65;
+  font-size: 22px;
+  font-style: Daytona;
+  color: #CC8B65;
 }
+
 h4 {
-	font-size: 20px;
-    font-style: Daytona;
-    color: #CC8B65;
+  font-size: 20px;
+  font-style: Daytona;
+  color: #CC8B65;
 }
+
 p {
-    font-size: 16px;
-    font-style: Arial;
-    color: #E3DCD2;
+  font-size: 16px;
+  font-style: Arial;
+  color: #E3DCD2;
 }
+
 li {
-    font-size: 15px;
-    font-style: Arial;
-    color: #E3DCD2;
+  font-size: 15px;
+  font-style: Arial;
+  color: #E3DCD2;
 }
+
+section {
+  background-color: rgb(2, 78, 62);
+}
+
 /* Style the top navigation bar */
 .topnav {
-    position: fixed;
-    overflow: hidden;
-    background-color: #100C0D;
-    width: 100%;
-    top: 0;
-    z-index: 5;
+  position: fixed;
+  overflow: hidden;
+  background-color: #100C0D;
+  width: 100%;
+  top: 0;
+  z-index: 5;
 }
-  
-  /* Style the topnav links */
-  .topnav a {
-    float: left;
-    display: block;
-    color: #E3DCD2;
-    font-style: Daytona;
-    text-align: center;
-    padding: 21px 16px;
-    text-decoration: none;
-    width: 14.285%;
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #E3DCD2;
+  font-style: Daytona;
+  text-align: center;
+  padding: 21px 16px;
+  text-decoration: none;
+  width: 14.285%;
 }
-  
-  /* Change color on hover */
-  .topnav a:hover {
-    background-color: #3E3A45;
-    color: #E3DCD2;
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #3E3A45;
+  color: #E3DCD2;
 }
-  /* Change color on active Site */
-  .topnav a.active {
-    background-color: rgba(255,255,255,0.1);
+
+/* Change color on active Site */
+.topnav a.active {
+  background-color: rgba(255, 255, 255, 0.1);
 }
+
 .SideNav {
-    position: fixed;
-    right: 0;
-    top: 15%;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 200px;
-    background-color: #100C0D;
-  }
-  
-  .SideNavli a {
-    display: block;
-    color: #CC8B65;
-    padding: 12px 16px;
-    text-decoration: none;
-  }
-  
-  /* Change the link color on hover */
-  .SideNavli a:hover {
-    background-color: #555;
-    color: white;
-  }
-  .scroll {
-    scroll-margin-top: 80px;
-  }
+  position: fixed;
+  right: 0;
+  top: 15%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #100C0D;
+}
+
+.SideNavli a {
+  display: block;
+  color: #CC8B65;
+  padding: 12px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+.SideNavli a:hover {
+  background-color: #555;
+  color: white;
+}
+
+.scroll {
+  scroll-margin-top: 80px;
+}
+
 /* Style the footer*/
 footer {
-    text-align: center;
-    padding: 3px;
-    background-color: #100C0D;
-    color: white;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+  text-align: center;
+  padding: 3px;
+  background-color: #100C0D;
+  color: white;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
+
 footer a {
-    color: #CC8B65;
+  color: #CC8B65;
 }
-.equipment div img {
-width: 300px;
-max-height: 380px;
+
+.equipment div img,
+.equipment section img {
+  width: 300px;
+  max-height: 380px;
 }
 
 .content-container {
-	text-align: center;
-	
+  text-align: center;
+
 }
 
 .content {
-	text-align: left;
-	width: 60%;
-	max-width: 100%;
-	display: inline-block;
-	
+  text-align: left;
+  width: 60%;
+  max-width: 100%;
+  display: inline-block;
+
 }
 
 .title {

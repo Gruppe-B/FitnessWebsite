@@ -119,13 +119,17 @@ footer a {
     width: 100%;
     height: 100%;
 }
-.hoverWork:hover::after {
+.hoverWork:hover::after, .hoverMethods:hover::after, .hoverEats:hover::after, .hoverRecreate:hover::after, .hoverEquip:hover::after, .hoverLearn:hover::after {
     transition: 0.5s;
-    content: "Yarak";
+    white-space: pre;
     position: absolute;
     color: #E3DCD2;
-    top: 5%;
-    left: 50%
+    font-size: 120%;
+    top: 25%;
+    left: 10%
+}
+.hoverWork:hover::after, .hoverMethods:hover::after, .hoverEats:hover::after, .hoverRecreate:hover::after, .hoverEquip:hover::after, .hoverLearn:hover::after {
+    content: "Trainigspläne \A \A Hier können Sie einen \A passenden Trainingsplan für sich \A aussuchen";
 }
 .workout {
     top: 5%;
