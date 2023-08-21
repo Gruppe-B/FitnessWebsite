@@ -1,84 +1,105 @@
-html{ /* Author Ilja Pidonenko */ 
-    scroll-behavior: smooth; /* This are the standard settings for the beginning of the project*/
+html {
+    /* Author Ilja Pidonenko */
+    scroll-behavior: smooth;
+    /* This are the standard settings for the beginning of the project*/
     overflow-x: hidden;
 }
-*{
-    margin: 0; /*We delete this to avoid problems with the positioning*/
+
+* {
+    margin: 0;
+    /*We delete this to avoid problems with the positioning*/
     padding: 0;
-    box-sizing: border-box; 
-    text-decoration: none; /* and delete this to avoid diferrent standard styles*/
+    box-sizing: border-box;
+    text-decoration: none;
+    /* and delete this to avoid diferrent standard styles*/
 }
 
-.container{ /*This is the Container for the whole Homepage*/
+.container {
+    /*This is the Container for the whole Homepage*/
     text-align: center;
     position: relative;
     width: 100%;
     max-width: 2025px;
     height: 100%;
 }
-.welcome { /*This is the header of the website*/
+
+.welcome {
+    /*This is the header of the website*/
     width: 100%;
-    height: 100vh; 
+    height: 100vh;
     background-image: url(../images/Background.png);
     background-size: cover;
 }
+
 .transition {
     width: 100%;
-    height: 30vh; 
+    height: 30vh;
     background-image: url(../images/transition.png);
     background-size: cover;
 }
-.shadow{ /*we make a shadow on the .welcome*/
+
+.shadow {
+    /*we make a shadow on the .welcome*/
     position: relative;
     width: 100%;
     height: 100%;
-    background-color: rgb(0, 0, 0,0.15);
+    background-color: rgb(0, 0, 0, 0.15);
     z-index: 1;
 }
-.titles{ /*we styke the title div in the .welcome div*/
+
+.titles {
+    /*we styke the title div in the .welcome div*/
     position: absolute;
     left: 0%;
     top: 25%;
     width: 60%;
 }
-.titles h1, .titles h2{
+
+.titles h1,
+.titles h2 {
     font-size: 70px;
     color: #e7e7da;
-    text-shadow: 2px 2px rgb(0, 0, 0, 0.5);   
+    text-shadow: 2px 2px rgb(0, 0, 0, 0.5);
 }
-.titles h3{
+
+.titles h3 {
     color: #e7e7da;
-    text-shadow: 2px 2px rgb(0, 0, 0, 0.5); 
+    text-shadow: 2px 2px rgb(0, 0, 0, 0.5);
 }
-.titles h2{
+
+.titles h2 {
     font-size: 50px;
 }
+
 .description {
     position: absolute;
     right: 5%;
     bottom: 0%;
     width: 45%;
-    background:#181717;
-  background:rgba(14, 13, 13, 0.5);
-  padding: 5%;
+    background: #181717;
+    background: rgba(14, 13, 13, 0.5);
+    padding: 5%;
 }
-.description h3{
+
+.description h3 {
     font-size: 40px;
     color: #e7e7da;
 }
-.description p{
+
+.description p {
     font-size: 25px;
     color: #e7e7da;
 }
 
-.welcome{ /*this is the first part of the page in the main div*/
+.welcome {
+    /*this is the first part of the page in the main div*/
     width: 100%;
     padding-bottom: 8%;
     display: flex;
 }
 
 
-.description p{
+.description p {
     margin-top: 5%;
 }
 
@@ -92,70 +113,117 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
 footer a {
     color: #CC8B65;
 }
+
 .homepage-content {
-    
+
     position: relative;
     height: 100vh;
     width: 100%;
 }
+
 .hoverPlate {
     transition: 0.5s;
 }
+
 .hoverPlate:hover {
-    background:#181717;
-    background:rgba(14, 13, 13, 0.9);
+    background: #181717;
+    background: rgba(14, 13, 13, 0.9);
 }
-.workout, .workout-methods, .eats, .recreation, .equipment, .learning, .hoverPlate {
+
+.workout,
+.workout-methods,
+.eats,
+.recreation,
+.equipment,
+.learning,
+.hoverPlate {
     position: absolute;
     width: 25%;
-    height: 35%;
+    height: 40%;
     border: solid black 2px;
 }
+
 .hoverPlate {
     top: 0%;
     width: 100%;
     height: 100%;
 }
-.hoverWork:hover::after, .hoverMethods:hover::after, .hoverEats:hover::after, .hoverRecreate:hover::after, .hoverEquip:hover::after, .hoverLearn:hover::after {
+
+.hoverWork:hover::after,
+.hoverMethods:hover::after,
+.hoverEats:hover::after,
+.hoverRecreate:hover::after,
+.hoverEquip:hover::after,
+.hoverLearn:hover::after {
     transition: 0.5s;
     white-space: pre;
-    position: absolute;
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
     color: #E3DCD2;
-    font-size: 120%;
-    top: 25%;
-    left: 10%
+    font-size: 110%;
+    margin-top: 20%;
 }
-.hoverWork:hover::after, .hoverMethods:hover::after, .hoverEats:hover::after, .hoverRecreate:hover::after, .hoverEquip:hover::after, .hoverLearn:hover::after {
+
+.hoverWork:hover::after {
     content: "Trainigspläne \A \A Hier können Sie einen \A passenden Trainingsplan für sich \A aussuchen";
 }
+
+.hoverMethods:hover::after {
+    content: "Trainingsmethoden \A \A Erfahren Sie \A   über all die möglichen Übungen \A in dem Fitness-Sport";
+}
+
+.hoverEats:hover::after {
+    content: "Ernährung \A \A Hier können Sie einen \A passenden Ernährungsplan für sich \A aussuchen";
+}
+
+.hoverRecreate:hover::after {
+    content: "Erholung \A \A        Hier können Sie mehr über    \A die Erholung nach \A dem Training erfahren";
+}
+
+.hoverEquip:hover::after {
+    content: "Ausrüstung \A \A      Hier können Sie mehr über          \A die benötigte Fitness-Ausrüstung \A erfahren";
+}
+
+.hoverLearn:hover::after {
+    content: "Lerne mehr \A \A Hier können Sie die Informationen \A über das Fitness nachlesen \A und Ihr Wissen erweitern";
+}
+
 .workout {
     top: 5%;
     left: 7%;
 }
+
 .workout-methods {
     top: 5%;
     left: 37%;
 }
+
 .eats {
     top: 5%;
     left: 67%;
 }
+
 .recreation {
     top: 50%;
     left: 7%;
 }
+
 .equipment {
     top: 50%;
     left: 37%;
 }
+
 .learning {
     top: 50%;
     left: 67%;
 }
+
 .homepage-content img {
-width: 100%;
-height: 100%;
+    width: 100%;
+    height: 100%;
 }

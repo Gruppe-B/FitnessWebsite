@@ -52,6 +52,8 @@ li {
 
 section {
   background-color: rgb(2, 78, 62);
+  border-radius: 2%;
+  padding: 0 1% 0 1%;
 }
 
 /* Style the top navigation bar */
