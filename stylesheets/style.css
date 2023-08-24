@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
 }
-
+/* Does a smooth scroll when using the Menu to jump to another part */
 html {
   scroll-behavior: smooth;
 }
@@ -49,7 +49,7 @@ li {
   font-style: Arial;
   color: #E3DCD2;
 }
-
+/* gives the content in the sections that round lighter green bubble */
 section {
   background-color: rgb(2, 78, 62);
   border-radius: 2%;
@@ -137,7 +137,7 @@ footer a {
   width: 300px;
   max-height: 380px;
 }
-
+/* Centers the content of the Websites */
 .content-container {
   text-align: center;
 
