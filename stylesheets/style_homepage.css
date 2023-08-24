@@ -3,6 +3,7 @@ html {
     scroll-behavior: smooth;
     /* This are the standard settings for the beginning of the project*/
     overflow-x: hidden;
+    font-size: calc(15px + 0.390625vw);
 }
 
 * {
@@ -57,9 +58,9 @@ html {
 
 .titles h1,
 .titles h2 {
-    font-size: 70px;
     color: #e7e7da;
     text-shadow: 2px 2px rgb(0, 0, 0, 0.5);
+    font-size: calc(70px - 0.390625vw);
 }
 
 .titles h3 {
