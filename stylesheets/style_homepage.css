@@ -3,7 +3,7 @@ html {
     scroll-behavior: smooth;
     /* This are the standard settings for the beginning of the project*/
     overflow-x: hidden;
-    font-size: calc(15px + 0.390625vw);
+  
 }
 
 * {

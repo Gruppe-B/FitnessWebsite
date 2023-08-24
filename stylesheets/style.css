@@ -4,7 +4,7 @@
 /* Does a smooth scroll when using the Menu to jump to another part */
 html {
   scroll-behavior: smooth;
-  font-size: calc(15px + 0.390625vw);
+  
 }
 
 body {
