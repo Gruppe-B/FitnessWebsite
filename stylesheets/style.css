@@ -190,9 +190,10 @@ footer a {
   }
   .SideNav {
     position: fixed;
-    top: 12%;
+    top: calc(12.8% - ((900px - 100vw) * 0.05));
     list-style-type: none;
     margin: 0;
+    z-index: 3;
     padding: 0;
     width: 100%;
     background-color: #100C0D;
@@ -205,6 +206,15 @@ footer a {
     text-decoration: none;
     width: 20%;
     float: left;
+    z-index: 3;
   }
+  .scroll {
+    scroll-margin-top: 190px;
+  }
+  .content-container {
+    text-align: center;
+    margin-top:30%;
+  }
+  
   
 }
