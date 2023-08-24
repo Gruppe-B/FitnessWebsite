@@ -1,3 +1,4 @@
+/* Puts the content that is in the section in the middle */
 section {
     margin-top: 5%;
     margin-bottom: 5%;
@@ -5,12 +6,14 @@ section {
     padding-left: 2%;
     background-color:rgb(2, 78, 62) ;
 }
+/* Puts the text on the left */
 div {
     text-align: left;
     padding-top: 2%;
 }
+/* How big the image should be */
 img {
-    width: 15%;
+    width: 30%;
     height: 15%;
 }
 /* Style the footer*/
@@ -23,9 +26,6 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-}
-img {
-    width: 200px;
 }
 footer a {
     color: #CC8B65;

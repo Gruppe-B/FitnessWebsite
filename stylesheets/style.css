@@ -4,6 +4,7 @@
 /* Does a smooth scroll when using the Menu to jump to another part */
 html {
   scroll-behavior: smooth;
+  font-size: calc(15px + 0.390625vw);
 }
 
 body {
@@ -78,6 +79,10 @@ section {
   width: 14.285%;
 }
 
+.topnav .icon {
+  display: none;
+}
+
 /* Change color on hover */
 .topnav a:hover {
   background-color: #3E3A45;
@@ -88,7 +93,7 @@ section {
 .topnav a.active {
   background-color: rgba(255, 255, 255, 0.1);
 }
-
+/* Settings for the Navigationbar on the right side */
 .SideNav {
   position: fixed;
   right: 0;
@@ -112,7 +117,8 @@ section {
   background-color: #555;
   color: white;
 }
-
+/* Gives the scroll a bit margin so if you use the menu you will land on the title
+   without the topNav covering it */
 .scroll {
   scroll-margin-top: 80px;
 }
@@ -131,7 +137,7 @@ footer {
 footer a {
   color: #CC8B65;
 }
-
+/* How Big the Image should be on the equipment site */
 .equipment div img,
 .equipment section img {
   width: 300px;
@@ -154,4 +160,25 @@ footer a {
 .title {
   margin-top: 10%;
   margin-bottom: 5%;
+}
+@media screen and (max-width: 800px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
 }
