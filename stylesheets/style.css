@@ -1,10 +1,11 @@
 * {
   box-sizing: border-box;
 }
+
 /* Does a smooth scroll when using the Menu to jump to another part */
 html {
   scroll-behavior: smooth;
-  
+
 }
 
 body {
@@ -50,6 +51,7 @@ li {
   font-style: Arial;
   color: #E3DCD2;
 }
+
 /* gives the content in the sections that round lighter green bubble */
 section {
   background-color: rgb(2, 78, 62);
@@ -94,6 +96,7 @@ section {
 .topnav a.active {
   background-color: rgba(255, 255, 255, 0.1);
 }
+
 /* Settings for the Navigationbar on the right side this is for the ul*/
 .SideNav {
   position: fixed;
@@ -105,6 +108,7 @@ section {
   width: 200px;
   background-color: #100C0D;
 }
+
 /* Settings for the Navigationbar on the right side this is for the li*/
 .SideNavli a {
   display: block;
@@ -118,6 +122,7 @@ section {
   background-color: #555;
   color: white;
 }
+
 /* Gives the scroll a bit margin so if you use the menu you will land on the title
    without the topNav covering it */
 .scroll {
@@ -138,12 +143,14 @@ footer {
 footer a {
   color: #CC8B65;
 }
+
 /* How Big the Image should be on the equipment site */
 .equipment div img,
 .equipment section img {
   width: 300px;
   max-height: 380px;
 }
+
 /* Centers the content of the Websites */
 .content-container {
   text-align: center;
@@ -162,8 +169,12 @@ footer a {
   margin-top: 10%;
   margin-bottom: 5%;
 }
+
 @media screen and (max-width: 900px) {
-  .topnav a:not(:first-child) {display: none;}
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+
   .topnav a.icon {
     float: right;
     display: block;
@@ -171,23 +182,30 @@ footer a {
 }
 
 @media screen and (max-width: 900px) {
-  .topnav.responsive {position: relative;}
+  .topnav.responsive {
+    position: relative;
+  }
+
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
     top: 0;
   }
+
   .topnav.responsive a {
     float: none;
     display: block;
     text-align: left;
   }
+
   .topnav a {
     width: 50%;
   }
+
   .topnav .icon {
     width: 14.285%;
   }
+
   .SideNav {
     position: fixed;
     top: calc(12.8% - ((900px - 100vw) * 0.05));
@@ -198,6 +216,7 @@ footer a {
     width: 100%;
     background-color: #100C0D;
   }
+
   /* Settings for the Navigationbar on the right side this is for the li*/
   .SideNavli a {
     display: block;
@@ -208,13 +227,15 @@ footer a {
     float: left;
     z-index: 3;
   }
+
   .scroll {
     scroll-margin-top: 190px;
   }
+
   .content-container {
     text-align: center;
-    margin-top:30%;
+    margin-top: 30%;
   }
-  
-  
+
+
 }

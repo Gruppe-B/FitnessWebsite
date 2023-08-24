@@ -4,18 +4,21 @@ section {
     margin-bottom: 5%;
     text-align: center;
     padding-left: 2%;
-    background-color:rgb(2, 78, 62) ;
+    background-color: rgb(2, 78, 62);
 }
+
 /* Puts the text on the left */
 div {
     text-align: left;
     padding-top: 2%;
 }
+
 /* How big the image should be */
 img {
     width: 30%;
     height: 15%;
 }
+
 /* Style the footer*/
 footer {
     text-align: center;
@@ -27,6 +30,7 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
 footer a {
     color: #CC8B65;
 }

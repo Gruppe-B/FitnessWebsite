@@ -3,7 +3,7 @@ html {
     scroll-behavior: smooth;
     /* This are the standard settings for the beginning of the project*/
     overflow-x: hidden;
-  
+
 }
 
 * {
@@ -31,6 +31,7 @@ html {
     background-image: url(../images/Background.png);
     background-size: cover;
 }
+
 /*The img between the footer and the main content*/
 .transition {
     width: 100%;
@@ -134,6 +135,7 @@ footer a {
     background: #181717;
     background: rgba(14, 13, 13, 0.9);
 }
+
 /*This are the panels on the homepage with the deffirent */
 .workout,
 .workout-methods,
@@ -147,12 +149,14 @@ footer a {
     height: 40%;
     border: solid black 2px;
 }
+
 /*This are the overlays for the panels*/
 .hoverPlate {
     top: 0%;
     width: 100%;
     height: 100%;
 }
+
 /**/
 .hoverWork:hover::after,
 .hoverMethods:hover::after,
@@ -169,6 +173,7 @@ footer a {
     font-size: 110%;
     margin-top: 20%;
 }
+
 /*TThis is the added text to the panels*/
 .hoverWork:hover::after {
     content: "Trainigspläne \A \A Hier können Sie einen \A passenden Trainingsplan für sich \A aussuchen";
@@ -193,6 +198,7 @@ footer a {
 .hoverLearn:hover::after {
     content: "Lerne mehr \A \A Hier können Sie die Informationen \A über das Fitness nachlesen \A und Ihr Wissen erweitern";
 }
+
 /*placing of the panels*/
 .workout {
     top: 5%;
@@ -230,59 +236,63 @@ footer a {
 }
 
 @media screen and (max-width: 900px) {
+
     .workout,
-.workout-methods,
-.eats,
-.recreation,
-.equipment,
-.learning,
-.hoverPlate {
-    position: absolute;
-    width: 25%;
-    height: 30%;
-    border: solid black 2px;
-}
-.hoverPlate {
-    top: 0%;
-    width: 100%;
-    height: 100%;
-}
-.hoverWork:hover::after,
-.hoverMethods:hover::after,
-.hoverEats:hover::after,
-.hoverRecreate:hover::after,
-.hoverEquip:hover::after,
-.hoverLearn:hover::after {
-    transition: 0.5s;
-    white-space: pre;
-    line-height: 1.5;
-    display: inline-block;
-    vertical-align: middle;
-    color: #E3DCD2;
-    font-size: 70%;
-    margin-top: 20%;
-}
-.hoverWork:hover::after {
-    content: "Trainigspläne \A \A Hier können Sie einen \A passenden \A Trainingsplan \A für sich \A aussuchen";
-}
+    .workout-methods,
+    .eats,
+    .recreation,
+    .equipment,
+    .learning,
+    .hoverPlate {
+        position: absolute;
+        width: 25%;
+        height: 30%;
+        border: solid black 2px;
+    }
 
-.hoverMethods:hover::after {
-    content: "Trainingsmethoden \A \A Erfahren Sie \A  über all die \A möglichen Übungen \A in dem \A Fitness-Sport";
-}
+    .hoverPlate {
+        top: 0%;
+        width: 100%;
+        height: 100%;
+    }
 
-.hoverEats:hover::after {
-    content: "Ernährung \A \A Hier können \A Sie einen \A passenden \A Ernährungsplan \A für sich \A aussuchen";
-}
+    .hoverWork:hover::after,
+    .hoverMethods:hover::after,
+    .hoverEats:hover::after,
+    .hoverRecreate:hover::after,
+    .hoverEquip:hover::after,
+    .hoverLearn:hover::after {
+        transition: 0.5s;
+        white-space: pre;
+        line-height: 1.5;
+        display: inline-block;
+        vertical-align: middle;
+        color: #E3DCD2;
+        font-size: 70%;
+        margin-top: 20%;
+    }
 
-.hoverRecreate:hover::after {
-    content: "Erholung \A \A Hier können Sie \A mehr über  \A die Erholung nach \A dem Training erfahren";
-}
+    .hoverWork:hover::after {
+        content: "Trainigspläne \A \A Hier können Sie einen \A passenden \A Trainingsplan \A für sich \A aussuchen";
+    }
 
-.hoverEquip:hover::after {
-    content: "Ausrüstung \A \A Hier können Sie \A mehr über   \A die benötigte \A Fitness-Ausrüstung \A erfahren";
-}
+    .hoverMethods:hover::after {
+        content: "Trainingsmethoden \A \A Erfahren Sie \A  über all die \A möglichen Übungen \A in dem \A Fitness-Sport";
+    }
 
-.hoverLearn:hover::after {
-    content: "Lerne mehr \A \A Hier können Sie \A die Informationen \A über das Fitness \A nachlesen \A und Ihr Wissen \A erweitern";
-}
+    .hoverEats:hover::after {
+        content: "Ernährung \A \A Hier können \A Sie einen \A passenden \A Ernährungsplan \A für sich \A aussuchen";
+    }
+
+    .hoverRecreate:hover::after {
+        content: "Erholung \A \A Hier können Sie \A mehr über  \A die Erholung nach \A dem Training erfahren";
+    }
+
+    .hoverEquip:hover::after {
+        content: "Ausrüstung \A \A Hier können Sie \A mehr über   \A die benötigte \A Fitness-Ausrüstung \A erfahren";
+    }
+
+    .hoverLearn:hover::after {
+        content: "Lerne mehr \A \A Hier können Sie \A die Informationen \A über das Fitness \A nachlesen \A und Ihr Wissen \A erweitern";
+    }
 }
